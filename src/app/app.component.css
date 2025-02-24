@@ -1,0 +1,33 @@
+button {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#increaseBy {
+  background: green;
+
+  &:hover {
+    background: darkgreen;
+  }
+}
+
+#decreaseBy {
+  background: red;
+
+  &:hover {
+    background: darkred;
+  }
+}
+
+#reset {
+  background: blue;
+
+  &:hover {
+    background: darkblue;
+  }
+}
